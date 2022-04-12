@@ -6,7 +6,6 @@ int size_src(char *src)
 
     while(src[i] != '\0')
         i++;
-    i++;
     return i;
 }
 
@@ -19,7 +18,7 @@ unsigned int ft_strlcpy(char *dest, char *src, unsigned int size)
 
     size_copy = size_src(src);
 
-    while(src[i] != '\0' && i < size)
+    while(src[i] != '\0' && i < (size -1))
     {
         dest[i] = src[i];
         i++;
