@@ -1,6 +1,6 @@
 #include <unistd.h>
 
-int ft_str_is_alpha(char *str)
+int ft_str_is_numeric(char *str)
 {
     int i = 0;
 
