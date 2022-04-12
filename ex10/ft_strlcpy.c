@@ -6,7 +6,7 @@ int size_src(char *src)
 
     while(src[i] != '\0')
         i++;
-    
+    i++;
     return i;
 }
 
