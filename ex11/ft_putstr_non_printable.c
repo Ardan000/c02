@@ -1,6 +1,6 @@
 #include <unistd.h>
 
-void change_hex(long char c)
+void change_hex(unsigned char c)
 {
     char *hex = "0123456789abcdef";
 
