@@ -19,7 +19,7 @@ unsigned int ft_strlcpy(char *dest, char *src, unsigned int size)
 
     size_copy = size_src(src);
 
-    while(src[i] != '\0' && i <= size + 1)
+    while(src[i] != '\0' && i < size)
     {
         dest[i] = src[i];
         i++;
